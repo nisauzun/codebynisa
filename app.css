@@ -1,0 +1,51 @@
+body {
+    background-color: #cdbffa;
+    background-size: cover;
+    color: rgb(216, 180, 180);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    margin: 0;
+    padding: 0;
+} 
+
+header {
+    background:2C3930;
+    padding: 10px 0;
+    opacity: 80%;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+.hakkimda {
+    background-color: rgb(98, 98, 170);
+    
+}
+.projelerim {
+    background-color:rgb(98, 98, 170) ;
+
+}
+.iletisim {
+    background-color: rgb(98, 98, 170);
+}
+.nav{
+
+}
