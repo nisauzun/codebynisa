@@ -2,17 +2,16 @@ body {
     background-color: #cdbffa;
     background-size: cover;
     color: rgb(216, 180, 180);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-} 
+}
 
 header {
-    background:2C3930;
-    padding: 10px 0;
-    opacity: 80%;
+    background-color: #2C3930;
+    padding: 20px 0;
+    opacity: 0.9;
     text-align: center;
-    
 }
 
 nav ul {
@@ -29,23 +28,52 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f0e68c;
 }
 
 section {
     padding: 50px;
     text-align: center;
+    border-radius: 10px; 
+    margin: 20px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
 }
-.hakkimda {
-    background-color: rgb(98, 98, 170);
-    
-}
-.projelerim {
-    background-color:rgb(98, 98, 170) ;
 
-}
-.iletisim {
+.hakkimda, .projelerim, .iletisim {
     background-color: rgb(98, 98, 170);
+    color: white;
 }
-.nav{
 
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6; 
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    color: rgb(216, 180, 180);
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+ul li a:hover {
+    color: #f0e68c;
 }
